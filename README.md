@@ -2,7 +2,7 @@
 
 <h1>Description</h1>
 <p>*This is a simple GUI Calculator.</p>
-<p>*Made by Visual Studio 2019(Using C++ .net framework).</p>
+<p>*Made by Visual Studio 2019(Using C# .net framework).</p>
 <p>*You can clone it and learn GUI or make it better</p>
 
 # Setup
