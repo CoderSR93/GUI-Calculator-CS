@@ -52,15 +52,16 @@ namespace WindowsFormsApp1
             {
                 Output.Clear();
             }
-            Output.Text +=op;
+            Output.Text +=  operation;
             
         }
 
         private void isEqual_Click(object sender, EventArgs e)
         {
-            int length = Output.Text.Length;
-            string temp = Output.Text.Remove(0, length - 1);
-            b = System.Convert.ToDouble(temp);
+            //int length = Output.Text.Length;
+
+            string temp = Output.Text;
+            b = System.Convert.ToDouble(Output.Text.Remove(0, temp.IndexOf(operation) + 1)); // Ser the value of 2nd number
 
             double r = 0; // To store the result
             switch (operation) // Checking the Operation and geting the result
@@ -79,6 +80,11 @@ namespace WindowsFormsApp1
                     break;
                }
             Output.Text = System.Convert.ToString(r); // Giving the result into Output Text Box
+        }
+
+        private void Dot_Click(object sender, EventArgs e)
+        {
+            Output.Text += ".";
         }
     }
 }

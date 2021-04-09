@@ -7,3 +7,4 @@ B:\Work\Programming\C#\Calculator\WindowsFormsApp1\obj\Debug\Calculator.csproj.G
 B:\Work\Programming\C#\Calculator\WindowsFormsApp1\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
 B:\Work\Programming\C#\Calculator\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 B:\Work\Programming\C#\Calculator\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+B:\Work\Programming\C#\Calculator\WindowsFormsApp1\obj\Debug\Calculator.csprojAssemblyReference.cache
